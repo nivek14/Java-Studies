@@ -21,6 +21,7 @@ public class DesafioAritmetico {
         var5 = scanner.nextDouble();
         var6 = scanner.nextDouble();
         var7 = scanner.nextDouble();
+        scanner.close();
     }
 
     public static void MainCalc(){
