@@ -1,8 +1,20 @@
 package ClassesMetodos;
 
 public class User {
-    String nome;
-    String email;
+    public String nome;
+    public String email;
+
+    public User(){
+        this("");
+    }
+
+    public User(String nome){
+        this(nome, "");
+    }
+    public User(String nome, String email){
+        this.nome = nome;
+        this.email = email;
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -16,4 +28,8 @@ public class User {
         return nome && email;
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
