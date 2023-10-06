@@ -2,6 +2,10 @@ package OrientacaoObjetos.Heranca.Desafio1;
 
 public class Ford extends Carro{
 
+    Ford(){
+        super(150);
+    }
+
     @Override
     void acelerar() {
         velocidadeAtual += 10;
