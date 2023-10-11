@@ -2,6 +2,7 @@ package Lambdas;
 
 import java.util.function.Predicate;
 
+// recebe um parâmetro e retorna um booleano
 public class Predicado {
 
     public static void main(String[] args) {
