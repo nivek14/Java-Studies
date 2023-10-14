@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
+
 // uma controller irá processar as requisições http e atuar como a primeira camada de acesso do usuário a aplicação
 @RestController
 @RequestMapping("/users")
@@ -28,6 +30,10 @@ public class UserController {
         if(user != null){
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Usuário já existe");
         }
+
+        // usando a lib bcrypt para criptografar a senha
+        String passwordHashred = BCrypt.withDefaults().hashToString(12, userModel.getPassword().toCharArray());
+        userModel.setPassword(passwordHashred);
 
         // se não existe iremos criar esse novo user
         user = this.userRepository.save(userModel);
