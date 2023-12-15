@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+        // Instâncias dos problemas
         LC1716 test1716 = new LC1716();
         LC1 test1 = new LC1();
         LC9 test9 = new LC9();
@@ -13,11 +14,13 @@ public class Main {
         LC169 test169 = new LC169();
         LC1436 test1436 = new LC1436();
 
+        // Entradas personalizadas
         ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
         input1436.add(List.of(new String[]{"London", "New York"}));
         input1436.add(List.of(new String[]{"New York", "Lima"}));
         input1436.add(List.of(new String[]{"Lima", "SP"}));
 
+        // Resultados
         //System.out.println(test1716.totalMoney(20));
         //System.out.println(Arrays.toString(test1.twoSum(new int[]{1,2,3,5,6,9,7,10}, 19)));
         //System.out.println(test9.isPalindrome(-121));
