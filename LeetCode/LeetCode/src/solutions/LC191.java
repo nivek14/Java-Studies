@@ -15,7 +15,7 @@ public class LC191 {
         return countOnes;*/
 
         return Integer.bitCount(n);
-        
+
     }
 
 
