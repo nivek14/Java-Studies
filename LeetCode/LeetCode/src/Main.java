@@ -16,6 +16,7 @@ public class Main {
         LC1436  test1436    = new LC1436();
         LC191   test191     = new LC191();
         LC1929  test1919    = new LC1929();
+        LC2469 test2469     = new LC2469();
 
         // Entradas personalizadas
         ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
@@ -31,6 +32,7 @@ public class Main {
         //System.out.println(test169.majorityElement(new int[]{2,2,1,1,1,2,2}));
         //System.out.println(test1436.destCity(input1436));
         //System.out.println(test191.hammingWeight(00000000000000000000000000001011 ));
-        System.out.println(Arrays.toString(test1919.getConcatenation(new int[]{1,3,2,1})));
+        //System.out.println(Arrays.toString(test1919.getConcatenation(new int[]{1,3,2,1})));
+        System.out.println(Arrays.toString(test2469.convertTemperature(36.50)));
     }
 }
