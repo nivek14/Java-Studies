@@ -28,6 +28,7 @@ public class Main {
         LC2798 test2798     = new LC2798();
         LC2535 test2535     = new LC2535();
         LC1431 test1431     = new LC1431();
+        LC1678 test1678     = new LC1678();
 
         // Entradas personalizadas
         ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
@@ -59,7 +60,7 @@ public class Main {
         //System.out.println(test1672.maximumWealth(new int[][]{{1,5},{7,3},{3,5}}));
         //System.out.println(test2798.numberOfEmployeesWhoMetTarget(new int[]{0,1,2,3,4}, 2));
         //System.out.println(test2535.sum(1,2));
-        System.out.println(Arrays.toString(new List[]{test1431.kidsWithCandies(new int[]{2, 3, 5, 1, 3}, 3)}));
-
+        //System.out.println(Arrays.toString(new List[]{test1431.kidsWithCandies(new int[]{2, 3, 5, 1, 3}, 3)}));
+        System.out.println(test1678.interpret("G()()()()(al)"));
     }
 }
