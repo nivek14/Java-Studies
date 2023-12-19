@@ -24,6 +24,7 @@ public class Main {
         LC1470 test1470     = new LC1470();
         LC2942 test2942     = new LC2942();
         LC1630 test1630     = new LC1630(1,1,0);
+        LC1672 test1672     = new LC1672();
 
         // Entradas personalizadas
         ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
@@ -31,10 +32,10 @@ public class Main {
         input1436.add(List.of(new String[]{"New York", "Lima"}));
         input1436.add(List.of(new String[]{"Lima", "SP"}));
 
-        System.out.println(test1630.addCar(1));
+        /*System.out.println(test1630.addCar(1));
         System.out.println(test1630.addCar(2));
         System.out.println(test1630.addCar(3));
-        System.out.println(test1630.addCar(1));
+        System.out.println(test1630.addCar(1));*/
 
         // Resultados
         //System.out.println(test1716.totalMoney(20));
@@ -52,6 +53,6 @@ public class Main {
         //System.out.println(test771.numJewelsInStones("z", "ZZ"));
         //System.out.println(Arrays.toString(test1470.shuffle(new int[]{1,1,2,2}, 2)));
         //System.out.println(Arrays.toString(new List[]{test2942.findWordsContaining(new String[]{"abc", "bcd", "aaaa", "cbc"}, 'a')}));
-
+        System.out.println(test1672.maximumWealth(new int[][]{{1,5},{7,3},{3,5}}));
     }
 }
