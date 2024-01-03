@@ -22,6 +22,7 @@ public class Main {
         LC2011 test2011     = new LC2011();
         LC771 test771       = new LC771();
         LC1470 test1470     = new LC1470();
+        LC1578 test1578     = new LC1578();
 
         // Entradas personalizadas
         ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
@@ -43,7 +44,8 @@ public class Main {
         //System.out.println(test1512.numIdenticalPairs(new int[]{1,2,3}));
         //System.out.println(test2011.finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));
         //System.out.println(test771.numJewelsInStones("z", "ZZ"));
-        System.out.println(Arrays.toString(test1470.shuffle(new int[]{1,1,2,2}, 2)));
+        //System.out.println(Arrays.toString(test1470.shuffle(new int[]{1,1,2,2}, 2)));
+        System.out.println(test1578.minCost("aaabbbabbbb", new int[]{3,5,10,7,5,3,5,5,4,8,1}));
 
     }
 }
