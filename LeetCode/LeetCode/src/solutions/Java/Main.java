@@ -1,4 +1,6 @@
-import solutions.*;
+package solutions.Java;
+
+import solutions.Java.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,12 +11,12 @@ public class Main {
 
         // Instâncias dos problemas
         LC1716  test1716    = new LC1716();
-        LC1     test1       = new LC1();
-        LC9     test9       = new LC9();
-        LC67    test67      = new LC67();
-        LC169   test169     = new LC169();
+        LC1 test1       = new LC1();
+        LC9 test9       = new LC9();
+        LC67 test67      = new LC67();
+        LC169 test169     = new LC169();
         LC1436  test1436    = new LC1436();
-        LC191   test191     = new LC191();
+        LC191 test191     = new LC191();
         LC1929  test1919    = new LC1929();
         LC2469 test2469     = new LC2469();
         LC1108 test1108     = new LC1108();
