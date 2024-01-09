@@ -1,6 +1,6 @@
 package com.example.demo.controllers;
 
-import com.example.demo.models.Calculadora;
+import com.example.demo.model.entities.Calculadora;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
