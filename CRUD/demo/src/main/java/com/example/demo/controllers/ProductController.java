@@ -47,5 +47,12 @@ public class ProductController {
         }
     }
 
+    @DeleteMapping
+    public ResponseEntity deleteProduct(@RequestBody @Valid RequestProduct data){
+        productRepository.deleteById(data.id);
+        return ResponseEntity.ok("produto deletado com sucesso");
+    }
+
+
 
 }
