@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SoftBlues/SoftBlues.iml" filepath="$PROJECT_DIR$/SoftBlues/SoftBlues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SoftBlues System.iml" filepath="$PROJECT_DIR$/.idea/SoftBlues System.iml" />
+    </modules>
+  </component>
+</project>
