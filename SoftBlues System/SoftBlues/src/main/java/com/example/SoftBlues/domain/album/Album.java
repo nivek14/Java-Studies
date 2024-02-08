@@ -2,6 +2,7 @@ package com.example.SoftBlues.domain.album;
 
 
 import lombok.*;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -34,6 +35,13 @@ public class Album {
 
     @NotNull
     private String yearLaunch;
+
+    @NotNull
+    private String albumLength;
+
+    @NotBlank
+    @Type(type = "numeric_boolean")
+    private boolean isSaved;
 
 
 }

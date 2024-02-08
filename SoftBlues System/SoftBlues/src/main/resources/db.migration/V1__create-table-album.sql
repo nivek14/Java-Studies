@@ -4,5 +4,7 @@ CREATE TABLE album (
     albumName TEXT NOT NULL,
     songs TEXT NOT NULL,
     artist TEXT NOT NULL,
-    yearLaunch TEXT NOT NULL
+    yearLaunch TEXT NOT NULL,
+    albumLength TEXT NOT NULL,
+    isSaved BIT NOT NULL
 );

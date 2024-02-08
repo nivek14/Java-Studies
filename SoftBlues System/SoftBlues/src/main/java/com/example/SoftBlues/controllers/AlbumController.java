@@ -19,7 +19,6 @@ public class AlbumController {
     @Autowired
     private AlbumRepository albumRepository;
 
-
     @GetMapping
     public ResponseEntity getAllAlbums(){
         var allAlbums = albumRepository.findAll();
