@@ -54,5 +54,5 @@ public class UserController {
         userRepository.deleteById(user.getId());
         return ResponseEntity.ok().build();
     }
-    
+
 }
