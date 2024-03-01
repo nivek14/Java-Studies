@@ -11,12 +11,12 @@ public class Main {
 
         // Instâncias dos problemas
         LC1716  test1716    = new LC1716();
-        LC1 test1       = new LC1();
-        LC9 test9       = new LC9();
-        LC67 test67      = new LC67();
-        LC169 test169     = new LC169();
+        LC1 test1           = new LC1();
+        LC9 test9           = new LC9();
+        LC67 test67         = new LC67();
+        LC169 test169       = new LC169();
         LC1436  test1436    = new LC1436();
-        LC191 test191     = new LC191();
+        LC191 test191       = new LC191();
         LC1929  test1919    = new LC1929();
         LC2469 test2469     = new LC2469();
         LC1108 test1108     = new LC1108();
@@ -32,6 +32,7 @@ public class Main {
         LC1431 test1431     = new LC1431();
         LC1678 test1678     = new LC1678();
         LC1365 test1365     = new LC1365();
+        LC88   test88       = new LC88();
 
         // Entradas personalizadas
         ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
@@ -65,6 +66,7 @@ public class Main {
         //System.out.println(test2535.sum(1,2));
         //System.out.println(Arrays.toString(new List[]{test1431.kidsWithCandies(new int[]{2, 3, 5, 1, 3}, 3)}));
         //System.out.println(test1678.interpret("G()()()()(al)"));
-        System.out.println(Arrays.toString(test1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})));
+        //System.out.println(Arrays.toString(test1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})));
+        test88.merge(new int[]{0},0,new int[]{1},1);
     }
 }
