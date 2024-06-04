@@ -33,12 +33,13 @@ public class Main {
         LC1678 test1678     = new LC1678();
         LC1365 test1365     = new LC1365();
         LC88   test88       = new LC88();
+        LC605  test605      = new LC605();
 
         // Entradas personalizadas
-        ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
-        input1436.add(List.of(new String[]{"London", "New York"}));
-        input1436.add(List.of(new String[]{"New York", "Lima"}));
-        input1436.add(List.of(new String[]{"Lima", "SP"}));
+        //ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
+        //input1436.add(List.of(new String[]{"London", "New York"}));
+        //input1436.add(List.of(new String[]{"New York", "Lima"}));
+        //input1436.add(List.of(new String[]{"Lima", "SP"}));
 
         /*System.out.println(test1630.addCar(1));
         System.out.println(test1630.addCar(2));
@@ -67,6 +68,7 @@ public class Main {
         //System.out.println(Arrays.toString(new List[]{test1431.kidsWithCandies(new int[]{2, 3, 5, 1, 3}, 3)}));
         //System.out.println(test1678.interpret("G()()()()(al)"));
         //System.out.println(Arrays.toString(test1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})));
-        test88.merge(new int[]{0},0,new int[]{1},1);
+        //test88.merge(new int[]{0},0,new int[]{1},1);
+        System.out.println(test605.canPlaceFlowers(new int[]{1}, 1));
     }
 }
