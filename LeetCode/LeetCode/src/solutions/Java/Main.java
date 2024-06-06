@@ -34,6 +34,8 @@ public class Main {
         LC1365 test1365     = new LC1365();
         LC88   test88       = new LC88();
         LC605  test605      = new LC605();
+        HrPlusMinus testhr1     = new HrPlusMinus();
+        HrMiniMasSum testhr2    = new HrMiniMasSum();
 
         // Entradas personalizadas
         //ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
@@ -69,6 +71,8 @@ public class Main {
         //System.out.println(test1678.interpret("G()()()()(al)"));
         //System.out.println(Arrays.toString(test1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})));
         //test88.merge(new int[]{0},0,new int[]{1},1);
-        System.out.println(test605.canPlaceFlowers(new int[]{1}, 1));
+        //System.out.println(test605.canPlaceFlowers(new int[]{1}, 1));
+        //testhr1.plusMinus(new ArrayList<Integer>(Arrays.asList(-4,3,-9,0,4,1)));
+        testhr2.miniMaxSum(new ArrayList<Integer>(Arrays.asList(140638725,436257910,953274816,734065819,362748590)));
     }
 }
