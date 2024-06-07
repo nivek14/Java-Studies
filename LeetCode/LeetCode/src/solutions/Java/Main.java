@@ -38,6 +38,7 @@ public class Main {
         HrPlusMinus testhr1         = new HrPlusMinus();
         HrMiniMasSum testhr2        = new HrMiniMasSum();
         HrTimeConversion testhr3    = new HrTimeConversion();
+        HrFindMedian testhr4        = new HrFindMedian();
 
         // Entradas personalizadas
         //ArrayList<List<String>> input1436 = new ArrayList<List<String>>();
@@ -76,6 +77,7 @@ public class Main {
         //System.out.println(test605.canPlaceFlowers(new int[]{1}, 1));
         //testhr1.plusMinus(new ArrayList<Integer>(Arrays.asList(-4,3,-9,0,4,1)));
         //testhr2.miniMaxSum(new ArrayList<Integer>(Arrays.asList(140638725,436257910,953274816,734065819,362748590)));
-        System.out.println(testhr3.timeConversion("07:05:45PM"));
+        //System.out.println(testhr3.timeConversion("07:05:45PM"));
+        System.out.println(testhr4.FindMedian(Arrays.asList(1,2,4,5,3)));
     }
 }
